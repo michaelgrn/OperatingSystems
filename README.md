@@ -6,4 +6,4 @@ The code in this folder contains examples of low level code that can is part of,
 
 ***ListTest*** is a doubly-linked list written from the ground up in Java, with a test suite designed to test all possible permutations to ensure robustness of code and demonstrate test driven development.
 
-***Shell*** is bash-shell written in C, with fork functionality (the Shell can open a copy of itself). Handles signals from the operating system enabling recursive use of itself.
+***Shell*** is bash-shell written in C, with fork functionality (the Shell can open a copy of itself). Performs signal handling to allow for nested instances of Shell.
